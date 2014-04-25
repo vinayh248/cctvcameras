@@ -1,0 +1,57 @@
+﻿ 	<div class="wrapper row1">
+  <header id="header" class="clear">
+    <hgroup>
+      <h1><a href="#">Vinay`s CCTV Cameras</a></h1>
+    </hgroup>
+    <form action="#" method="post">
+    </form>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href='products.html'>Products</a></li>
+		<li><a href='contactus.html'>Contact us</a></li>
+        <li class="last"><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <section id="slider" class="clear">
+     
+    </section>
+	
+	<div id="container1">
+	
+	
+		<table id="example" border="0" cellpadding="0" cellspacing="0" class="pretty">
+			
+			<thead>
+				<tr>
+			<th>Product_image</th>
+					<th>Product ID</th>
+					<th>Brand</th>
+					<th>Type</th>
+					<th>Range</th>
+					<th>Vision</th>
+					<th>Unit Price</th>
+			
+				</tr>
+			</thead>
+			<tbody>
+				{{#cctvcameras}}
+					<tr>
+					<td><img src="images/{{Product_id}}.jpg" width="75" height="101" alt="{{Product_id}}" /></td>
+						<td>{{Product_id}}</td>
+						<td>{{Brand}}</td>
+						<td>{{Type}}</td>
+						<td>{{Range}}</td>
+						<td>{{Vision}}</td>
+						<td>{{Unit_Price}}</td>
+						
+					</tr>
+					{{/cctvcameras}}
+			</tbody>
+		</table>
+</div>

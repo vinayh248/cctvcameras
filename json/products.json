@@ -1,0 +1,126 @@
+﻿{
+	"cctvcameras" :
+	[	
+		
+		{
+			"Product_id"   : "C000",
+			"Brand" : "OSI",
+			"Type" : "Dome",
+			"Range" : "Long",
+			"Vision" : "Night Vision",
+			"Unit_Price":80
+		},
+		{
+			"Product_id"   :	"C001",
+			"Brand" : "OSI",
+			"Type" : "Box",
+			"Range" : "Short",
+			"Vision" : "Night Vision",
+			"Unit_Price":105
+		},
+		{
+			"Product_id"   :	"C002",
+			"Brand" : "FINE",
+			"Type" : "Box",
+			"Range" : "Medium",
+			"Vision" : "N/A",
+			"Unit_Price":90
+		},
+		{
+			"Product_id"   :	"C003",
+			"Brand" : "OSI",
+			"Type" : "Box",
+			"Range" : "Short",
+			"Vision" : "N/A",
+			"Unit_Price":300
+		},
+		{
+			"Product_id"   :	"C004",
+			"Brand" : "FINE",
+			"Type" : "Dome",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":140
+		},
+		{
+			"Product_id"   :	"C005",
+			"Brand" : "Avigilon",
+			"Type" : "Dome",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":136
+		},
+		{
+			"Product_id"   :	"C006",
+			"Brand" : "Avigilon",
+			"Type" : "Dome",
+			"Range" : "Long",
+			"Vision" : "N/A",
+			"Unit_Price":60
+		},
+		{
+			"Product_id"   :	"C007",
+			"Brand" : "Vivotek",
+			"Type" : "Dome",
+			"Range" : "Medium",
+			"Vision" : "N/A",
+			"Unit_Price":150
+		},
+		{
+			"Product_id"   :	"C008",
+			"Brand" : "FINE",
+			"Type" : "Indoor",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":250
+		},
+		{
+			"Product_id"   :	"C009",
+			"Brand" : "FINE",
+			"Type" : "Indoor",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":85
+		},
+		{
+			"Product_id"   :	"C010",
+			"Brand" : "OSI",
+			"Type" : "Indoor",
+			"Range" : "Long",
+			"Vision" : "N/A",
+			"Unit_Price":75
+		},
+		{
+			"Product_id"   :	"C011",
+			"Brand" : "OSI",
+			"Type" : "Indoor",
+			"Range" : "Short",
+			"Vision" : "N/A",
+			"Unit_Price":117
+		},
+		{
+			"Product_id"   :	"C012",
+			"Brand" : "Avigilon",
+			"Type" : "Indoor",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":180
+		},
+		{
+			"Product_id"   :	"C013",
+			"Brand" : "Vivotek",
+			"Type" : "Indoor",
+			"Range" : "Medium",
+			"Vision" : "Night Vision",
+			"Unit_Price":200
+		},
+		{
+			"Product_id"   :	"C014",
+			"Brand" : "FINE",
+			"Type" : "Indoor",
+			"Range" : "Medium",
+			"Vision" : "N/A",
+			"Unit_Price":220
+		}
+	]
+}

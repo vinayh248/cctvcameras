@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<script type="text/javascript">
+<!--
+//preload images
+var image1=new Image()
+image1.src="images/camera.jpg"
+var image2=new Image()
+image2.src="images/image1.png"
+var image3=new Image()
+image3.src="images/image2.png"
+var image4=new Image()
+image4.src="images/image3.jpg"
+var image5=new Image()
+image5.src="images/image4.jpg"
+var image6=new Image()
+image6.src="images/image5.jpg"
+//-->
+</script>
+<title>CCTV cameras</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <hgroup>
+      <h1><a href="#">Vinay`s CCTV Cameras</a></h1>
+    </hgroup>
+    <form action="#" method="post">
+    </form>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href='products.html'>Products</a></li>
+		<li><a href='contactus.html'>Contact us</a></li>
+        <li class="last"><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    
+    <section id="slider" class="clear">
+      <figure><div id="slide"><a href="javascript:slidelink()"><img src="images/image1.jpg" name="slide" width="300" height="150" /></a>
+	  
+<script type="text/javascript">
+<!--
+var step=1
+var whichimage=1
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+whichimage=step
+if (step<6)
+step++
+else
+step=1
+setTimeout("slideit()",1800)
+}
+slideit()
+function slidelink(){
+if (whichimage==1)
+window.location="products.html"
+else if (whichimage==2)
+window.location="products.html"
+else if (whichimage==3)
+window.location="products.html"
+else if (whichimage==4)
+window.location="products.html"
+else if (whichimage==5)
+window.location="products.html"
+else if (whichimage==6)
+window.location="products.html"
+}
+//-->
+</script>
+        <figcaption>
+          <h2>New Exciting Offers!!</h2>
+          <p>Now protect your work place as well as your home with the new and latest security features that will mesmerise you.</p>
+          
+        </figcaption>
+      </figure>
+    </section>
+
+			<div id="wrapper row2">   	
+						    	<div id="container">    		
+									<h2 class="title">Contacts</h2>
+									<p>To contact us: <a title="Contact" href="mailto:vinay@cctvcameras.ca">vinay@cctvcameras.ca</a> or use the following form:</p>
+									<div>
+										<form action="" class ="contactForm" method="post">
+											<p><strong>Full Name</strong>(required)<br/>
+												<span><input type="text" name="your-name" value="" size="40" required/></span> </p>
+												
+											<p><strong>E-mail</strong>(required)<br/>
+												<span><input type="email" name="your-email" value="" size="40" required/></span> </p>
+												
+											<p><strong>Subject</strong><br/>
+												<span><input type="text" name="your-subject" value="" size="40"/></span> </p>
+												
+											<p><strong>Message</strong>(required)<br/>
+												<span><textarea name="your-message" cols="40" rows="10" required></textarea></span> </p>
+											<p><input type="submit" id="contactSubmit" value="SEND"/></p>
+										</form>
+									</div>
+								</div>
+								<!--end content-->
+				</div>
+
+<div class="wrapper row3">
+	<footer id="footer" class="clear">
+		<p class="fl_left">Copyright &copy; 2013 - All Rights Reserved - <a href="#">Vinay Hariharan C0629754</a></p>
+	</footer>
+</body>
+</html>

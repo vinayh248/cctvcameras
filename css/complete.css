@@ -1,0 +1,203 @@
+/*
+ * Colour dictionary:
+ *
+ * Table control elements:   #719ba7
+ * Header cells:             #66A9BD
+ * Body header cells:        #91c5d4
+ * Body content cells:       #d5eaf0
+ * Body content cells (alt): #bcd9e1
+ * Footer header:            #b0cc7f
+ * Footer content:           #d7e1c5
+ */
+
+
+/*
+ * Page setup styles
+ */
+body {
+	font: 90%/1.45em calibri, Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #111;
+	background-color: #fff;
+}
+
+#container {
+	margin: 0 auto;
+	width: 500px
+}
+
+#logo {
+   
+    border-bottom: .25em solid #003366;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.0em;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+/*
+ * DataTables framework
+ */
+div.dataTables_wrapper {
+	background-color: #363636;
+}
+
+div.dataTables_length {
+	float: left;
+}
+
+div.dataTables_filter {
+	float: right;
+}
+
+div.dataTables_info {
+	padding: 9px 6px 6px 6px;
+	float: left;
+}
+
+div.dataTables_paginate {
+	float: right;
+}
+
+div.dataTables_length,
+div.dataTables_filter,
+div.dataTables_paginate {
+	padding: 6px;
+}
+
+/* Self clearing - http://www.webtoolkit.info/css-clearfix.html */
+.dataTables_wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+html[xmlns] .dataTables_wrapper {
+	display: block;
+}
+ 
+* html .dataTables_wrapper {
+	height: 1%;
+}
+
+
+/*
+ * Table styles
+ */
+table.pretty {
+	width: 100%;
+	clear: both;
+}
+
+table.pretty td,
+table.pretty th {
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+/* Header cells */
+table.pretty thead th {
+	text-align: center;
+	background: #FFFFFF;
+}
+
+/* Body cells */
+table.pretty tbody th {
+	text-align: left;
+	background: #91c5d4;
+}
+	
+table.pretty tbody td {
+	text-align: center;
+	background: #363636;
+}
+		
+table.pretty tbody tr.odd td { 
+	background: #FFFFFF;
+}
+
+/* Footer cells */	
+table.pretty tfoot th {
+	background: #b0cc7f;
+	text-align: left;
+}
+	
+table.pretty tfoot td {
+	background: #d7e1c5;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* Full number pagination */
+.paging_full_numbers {
+	height: 22px;
+	line-height: 22px;
+}
+.paging_full_numbers a:active {
+	outline: none
+}
+.paging_full_numbers a:hover {
+	text-decoration: none;
+}
+
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+	border: 1px solid #aaa;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	margin: 0 3px;
+	cursor: pointer;
+	*cursor: hand;
+	color: #333 !important;
+}
+
+.paging_full_numbers a.paginate_button {
+	background-color: #ddd;
+}
+
+.paging_full_numbers a.paginate_button:hover {
+	background-color: #ccc;
+	text-decoration: none !important;
+}
+
+.paging_full_numbers a.paginate_active {
+	background-color: #99B3FF;
+}
+
+a.paginate_button_disabled {
+	color: #3d6672;
+}
+
+/*
+ * Sorting
+ */
+table.pretty thead th.sorting_asc {
+	background: #363636 url('/images/sort_asc.png') no-repeat right center;
+}
+
+table.pretty thead th.sorting_desc {
+	background: #363636 url('/images/sort_desc.png') no-repeat right center;
+}
+
+table.pretty thead th.sorting {
+	background: #363636 url('/images/sort_both.png') no-repeat right center;
+}
